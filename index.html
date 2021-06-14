@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Box Bank</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-welcome">
+        <h1 class="header-title">Overview</h1>
+        <p class="header-semiTitle">
+          Hi Melissa, happy checking your balance below
+        </p>
+      </div>
+      <div class="header-icons">
+        <div class="icons">
+          <img class="icon search" src="images/search-icon.png" alt="" />
+        </div>
+        <div class="icons">
+          <img class="icon alert" src="images/alert-icon.png" alt="" />
+        </div>
+        <img class="user-image" src="images/user-icon.jpg" alt="" />
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="left transactions">
+        <h1>Recent Transactions</h1>
+        <p>7 January, 2021</p>
+
+        <div class="transaction">
+          <div class="trans-img">
+            <img src="images/netflix.png" alt="" class="transaction-image" />
+          </div>
+
+          <div class="transaction-title">
+            <h1>Netflix Family Pack</h1>
+            <span class="bill">Bill <span class="status">Done</span></span>
+          </div>
+          <p class="credit">- €24.99</p>
+        </div>
+        <div class="transaction">
+          <div class="trans-img-2">
+            <img src="images/spotify.png" alt="" class="transaction-image" />
+          </div>
+
+          <div class="transaction-title">
+            <h1>Spotify Duo Pack</h1>
+            <span class="bill">Bill <span class="status">Done</span></span>
+          </div>
+          <p class="credit">- €9.99</p>
+        </div>
+      </div>
+      <div class="right account">
+        <div class="card-info">
+          <div class="left-card-info">
+            <h3>Card information</h3>
+            <p>Status: <span class="card-active">Active</span></p>
+            <p>Name: <span class="card-name">Payment Card</span></p>
+            <p>
+              Type of card: <span class="card-type">Master card</span
+              ><img src="images/card_logo.png" alt="card-logo" />
+            </p>
+          </div>
+          <div class="right-card-info">
+            <p class="card-curr">Currency: €</p>
+            <img src="images/europe_icon.png" alt="europe-icon" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
